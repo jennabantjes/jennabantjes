@@ -1,0 +1,254 @@
+@charset "utf-8";
+
+.container {
+  margin: auto;
+  padding: auto;
+  width: 960px;
+}
+
+header {
+  height: 40px;
+  background-color: @charcoal;
+  position: fixed;
+  z-index: 900;
+  width: 100%;
+
+  nav {
+    h1 {
+      display: inline-block;
+      font-family: 'jenna_sueregular';
+      text-shadow: 1px 1px 1px #333;
+
+      a {
+        color: @highlight-color;
+
+        &:hover {
+          color: darken(@highlight-color, 5);
+          text-decoration: none;
+        }
+      }
+    }
+
+  ul {
+    display: inline-block;
+    padding-top: 12px;
+    vertical-align: top;
+
+      li {
+          display: inline-block;
+
+        a {
+          color: white;
+          text-transform: uppercase;
+
+          &:hover {
+            color: @highlight-color;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+section.main-content {
+
+  section.intro {
+    margin-bottom: 50px;
+    vertical-align: middle;
+
+    p {
+      text-align:center;
+      font-size:18px;
+      line-height: 40px;
+
+      a {
+        color: @highlight-color;
+      }
+    }
+
+    h1 {
+      border-top: 5px @highlight-color solid;
+      border-bottom: 5px @highlight-color solid;
+      text-align:center;
+      font-family: 'museo_slab_500';
+      padding: 20px 0px;
+    }
+
+    span {
+      font-family: 'jenna_sueregular';
+      font-size:38px;
+      color: @highlight-color;
+    }
+
+    .ornament {
+      margin-top: 70px;
+      margin-left: 325px;
+      padding-bottom: 20px;
+    }
+
+    .ornament-bottom {
+      margin-left: 325px;
+    }
+  }
+
+  section.about {
+
+    h2 {
+      font-family: 'museo_slab_500';
+      padding: 60px 0 8px 0;
+      text-align: center;
+      border-bottom: @highlight-color solid 1px;
+    }
+
+    div {
+      display: inline-block;
+      vertical-align: top;
+      width: 49%;
+
+      p {
+        font-size: 16px;
+        padding-top: 10px;
+
+        a {
+          color: @highlight-color;
+        }
+      }
+
+      img {
+        background-color: white;
+        box-shadow: 1px 1px 2px 2px #ccc;
+        margin-top: 40px;
+        padding: 10px;
+        transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg); /* IE 9 */
+        -webkit-transform: rotate(-5deg); /* Safari and Chrome */
+      }
+    }
+
+    aside {
+      font-size: 18px;
+      font-weight: 400;
+      height: 200px;
+
+      h3 {
+        font-family: 'museo_slab_500';
+      }
+
+      li {
+        float: left;
+        width: 25%;
+      }
+    }
+  }
+}
+
+#contact-link {
+  padding-right: 18px;
+}
+
+.work {
+
+  h2 {
+    font-family: 'museo_slab_500';
+    padding: 60px 0 8px 0;
+    text-align: center;
+    border-bottom: @highlight-color solid 1px;
+  }
+
+  li {
+    margin-right: -5px;
+    margin-bottom: 20px;
+
+    img {
+      border: 1px solid #cccccc;
+      padding: 10px;
+      background-color: white;
+
+      &:hover {
+        border-color: @highlight-color;
+        box-shadow: 2px 2px 2px 1px #F9DEC2;
+        transition: all, 0.1s linear;
+        -webkit-transition-propery: all, 0.1s linear;
+      }
+    }
+  }
+}
+
+section.contact {
+  margin-bottom: 100px;
+
+  div.icons {
+    display: inline-block;
+    vertical-align: top;
+    width: 55%;
+  }
+
+  div.available {
+    display: inline-block;
+    width: 40%;
+  }
+
+  h2 {
+    font-family: 'museo_slab_500';
+    padding: 60px 0 8px 0;
+    text-align: center;
+    border-bottom: @highlight-color solid 1px;
+  }
+
+  h3 {
+    font-family: 'museo_slab_500';
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  img {
+    margin: 0 10px;
+    opacity: 0.6;
+
+    &:hover {
+      opacity: 0.8;
+      transition: all, 0.1s linear;
+      -webkit-transition-propery: all, 0.1s linear;
+    }
+  }
+}
+
+footer {
+  background-color: #333;
+  width: 100%;
+
+  div.copyright {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 18px;
+    vertical-align: top;
+    width: 57%;
+  }
+
+  div.signature {
+    display: inline-block;
+    margin-top: 30px;
+    padding-left: 20px;
+    vertical-align: top;
+    width: 20%;
+
+    a {
+      color: @highlight-color;
+      font-size: 45px;
+
+      &:hover {
+        color: darken(@highlight-color, 5);
+        text-decoration: none;
+      }
+    }
+  }
+
+}
+
+

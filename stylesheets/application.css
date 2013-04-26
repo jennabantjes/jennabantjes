@@ -1,0 +1,205 @@
+@import "reset.css";
+
+@import "text.css";
+@charset "utf-8";
+.container {
+  margin: auto;
+  padding: auto;
+  width: 960px;
+}
+header {
+  height: 40px;
+  background-color: #333333;
+  position: fixed;
+  z-index: 900;
+  width: 100%;
+}
+header nav h1 {
+  display: inline-block;
+  font-family: 'jenna_sueregular';
+  text-shadow: 1px 1px 1px #333;
+}
+header nav h1 a {
+  color: #eb840e;
+}
+header nav h1 a:hover {
+  color: #d3760d;
+  text-decoration: none;
+}
+header nav ul {
+  display: inline-block;
+  padding-top: 12px;
+  vertical-align: top;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  color: white;
+  text-transform: uppercase;
+}
+header nav ul li a:hover {
+  color: #eb840e;
+  text-decoration: none;
+}
+section.main-content section.intro {
+  margin-bottom: 50px;
+  vertical-align: middle;
+}
+section.main-content section.intro p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+section.main-content section.intro p a {
+  color: #eb840e;
+}
+section.main-content section.intro h1 {
+  border-top: 5px #eb840e solid;
+  border-bottom: 5px #eb840e solid;
+  text-align: center;
+  font-family: 'museo_slab_500';
+  padding: 20px 0px;
+}
+section.main-content section.intro span {
+  font-family: 'jenna_sueregular';
+  font-size: 38px;
+  color: #eb840e;
+}
+section.main-content section.intro .ornament {
+  margin-top: 70px;
+  margin-left: 325px;
+  padding-bottom: 20px;
+}
+section.main-content section.intro .ornament-bottom {
+  margin-left: 325px;
+}
+section.main-content section.about h2 {
+  font-family: 'museo_slab_500';
+  padding: 60px 0 8px 0;
+  text-align: center;
+  border-bottom: #eb840e solid 1px;
+}
+section.main-content section.about div {
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+}
+section.main-content section.about div p {
+  font-size: 16px;
+  padding-top: 10px;
+}
+section.main-content section.about div p a {
+  color: #eb840e;
+}
+section.main-content section.about div img {
+  background-color: white;
+  box-shadow: 1px 1px 2px 2px #ccc;
+  margin-top: 40px;
+  padding: 10px;
+  transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  /* IE 9 */
+
+  -webkit-transform: rotate(-5deg);
+  /* Safari and Chrome */
+
+}
+section.main-content section.about aside {
+  font-size: 18px;
+  font-weight: 400;
+  height: 200px;
+}
+section.main-content section.about aside h3 {
+  font-family: 'museo_slab_500';
+}
+section.main-content section.about aside li {
+  float: left;
+  width: 25%;
+}
+#contact-link {
+  padding-right: 18px;
+}
+.work h2 {
+  font-family: 'museo_slab_500';
+  padding: 60px 0 8px 0;
+  text-align: center;
+  border-bottom: #eb840e solid 1px;
+}
+.work li {
+  margin-right: -5px;
+  margin-bottom: 20px;
+}
+.work li img {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  background-color: white;
+}
+.work li img:hover {
+  border-color: #eb840e;
+  box-shadow: 2px 2px 2px 1px #F9DEC2;
+  transition: all, 0.1s linear;
+  -webkit-transition-propery: all, 0.1s linear;
+}
+section.contact {
+  margin-bottom: 100px;
+}
+section.contact div.icons {
+  display: inline-block;
+  vertical-align: top;
+  width: 55%;
+}
+section.contact div.available {
+  display: inline-block;
+  width: 40%;
+}
+section.contact h2 {
+  font-family: 'museo_slab_500';
+  padding: 60px 0 8px 0;
+  text-align: center;
+  border-bottom: #eb840e solid 1px;
+}
+section.contact h3 {
+  font-family: 'museo_slab_500';
+}
+section.contact p {
+  font-size: 18px;
+}
+section.contact img {
+  margin: 0 10px;
+  opacity: 0.6;
+}
+section.contact img:hover {
+  opacity: 0.8;
+  transition: all, 0.1s linear;
+  -webkit-transition-propery: all, 0.1s linear;
+}
+footer {
+  background-color: #333;
+  width: 100%;
+}
+footer div.copyright {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 18px;
+  vertical-align: top;
+  width: 57%;
+}
+footer div.signature {
+  display: inline-block;
+  margin-top: 30px;
+  padding-left: 20px;
+  vertical-align: top;
+  width: 20%;
+}
+footer div.signature a {
+  color: #eb840e;
+  font-size: 45px;
+}
+footer div.signature a:hover {
+  color: #d3760d;
+  text-decoration: none;
+}
